@@ -9,7 +9,7 @@
   "scripts": {
     "bump-version": "node ../../scripts/version.js --target ng",
     "ng": "ng",
-    "start": "ng serve --open --proxy-config proxy.config.json",
+    "start": "ng serve",
     "start-hmr": "ng serve --configuration hmr --source-map=false --hmr-warning=false",
     "start-hmr-sourcemaps": "ng serve --configuration hmr --source-map=true --hmr-warning=false",
     "build": "node --max_old_space_size=6144 ./node_modules/@angular/cli/bin/ng build",
@@ -41,6 +41,9 @@
     "@angular/router": "^7.2.0",
     "@briebug/jest": "^1.3.1",
     "@briebug/jest-schematic": "^1.6.0",
+    "@burstjs/core": "^0.1.1",
+    "@burstjs/crypto": "^0.1.1",
+    "@burstjs/http": "^0.1.1",
     "@ngrx/effects": "7.0.0",
     "@ngrx/router-store": "7.0.0",
     "@ngrx/store": "7.0.0",

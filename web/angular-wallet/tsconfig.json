@@ -10,8 +10,6 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "paths": {
-      "@fuse": ["@fuse/"],
-      "@burstjs/*": ["../../../lib/packages/*"]
     },
     "target": "es5",
     "typeRoots": [
