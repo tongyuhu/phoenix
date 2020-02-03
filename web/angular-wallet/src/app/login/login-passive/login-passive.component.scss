@@ -1,24 +1,47 @@
 $media-querie-mobile: 0;
 $media-querie-tablet: 768px;
 $media-querie-desktop: 992px;
-$media-querie-screen:  1200px;
+$media-querie-screen: 1200px;
+
+.login {
+  display: flex;
+  height: calc(100vh - 64px);
+  width: 100vw;
+  align-items: center;
+  overflow: hidden;
+
+  background: linear-gradient(60deg, #003D6E, #00579D);
+  -webkit-animation: bg 30s ease infinite;
+  -moz-animation: bg 30s ease infinite;
+  animation: bg 30s ease infinite;
+
+  .login-passive__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
 
 .signup {
   margin: 40px auto;
+
   &__header {
     padding: 1rem;
     text-align: center;
   }
+
   &__logo {
     height: 30px;
   }
+
   &__container {
-      height: calc(100vh - 50px);
-      margin: 0 auto;
-      max-width: 720px;
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+    max-width: 720px;
   }
+
   &__title {
-    color: #333333;
+    color: #F5F5F5;
     font-weight: bold;
     margin: 3rem 0;
     position: relative;
@@ -30,6 +53,7 @@ $media-querie-screen:  1200px;
       font-size: 3.5rem;
       margin-left: 0;
     }
+
     &::after {
       background: #00579d;
       bottom: -5px;

@@ -1,12 +1,24 @@
 # Changelog
 
-## 1.0.0-beta.12 (TBR)
+## 1.0.0-beta.13
+
+### New Features:
+- Added Block Time Graph to Blocks Page
+
+### Bug Fixes:
+- Fixed a bug with QR code generation
+- Security updates
+
+## 1.0.0-beta.12 
 
 ### New Features:
 - Added Account Activation
+- Improved UX for Account Creation Process 
+- Account Manager with explicit actions (#700) 
 - Removed Endpoint Setting
     - simplified node selection
     - automatic/dynamic peer version detection
+- Language Selection for Mobile/Responsive version
 
 ## 1.0.0-beta.11
 
